@@ -34,11 +34,11 @@ let layers = map2.getStyle().layers;
           ['get', 'tripCount'],
           0,
           '#c0e6ba',
-          3500,
+          3000,
           '#94d391',
           7000,
           '#60ba6c',
-          10500,
+          10000,
           '#329a51',
           14000,
           '#0e7735'
