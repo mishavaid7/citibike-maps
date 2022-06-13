@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title> CitiBike Locations NYC </title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+   
+    <div class="content-container">
+        <br>
+        <br>
+    <h4> Points Unknown | Citibike Locations     </h4>
+    <h1> Mapping all the Citibike stations in NYC 📍 🚲  </h1>
+    <p class="byline"> by Misha Vaid</p>
+
+    <p> These maps were created with publicly available  <a href="https://s3.amazonaws.com/tripdata/index.html"> Citibike data.</a> You can hover each station to see the raw number! </p>
+
+  <!-- 2020 maps -->
+<h1>September 2020</h1>
+<p> The total number of trips taken in September 2020 was 2,488,225. </p>
+<p style="background-color:#60ba6c;"> A darker shade of green implies more starts/stops. </p>
+
+
+<div class="grid">
+    <div>
+        <p> Where did trips start from? </p>
+        <div id='map'>
+        </div>
+        <script type='text/javascript' src="map.js"></script>
+    </div>
+   
+    <div>
+        <p> Where did trips end? </p>
+        <div id='map2'>
+        </div>
+        <script type='text/javascript' src="map2.js"></script>
+    </div>
+</div>
+ 
+<!-- 2021 maps -->
+ <h1> September 2021 </h1>
+ <p> The total number of trips taken in September 2020 was 3,280,542. </p>
+
+ <p style="background-color:#60ba6c;"> A darker shade of green implies more starts/stops. </p>
+
+ <div class="grid">
+    <div>
+        <p> Where did trips start from? </p>
+        <div id='map3'>
+        </div>
+        <script type='text/javascript' src="map3.js"></script>
+    </div>
+   
+    <div>
+        <p> Where did trips end? </p>
+        <div id='map4'>
+        </div>
+        <script type='text/javascript' src="map4.js"></script>
+    </div>
+</div>
+
+</body>
+</html>
