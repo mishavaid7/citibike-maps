@@ -24,9 +24,9 @@ let layers = map.getStyle().layers;
       paint: {
         'circle-radius': 4,
         // "circle-color": '#26547C',
-        "circle-stroke-color": "#ffff00",
+        // "circle-stroke-color": "#ffff00",
         "circle-stroke-width": 0.5,
-        "circle-opacity": 0.8,
+        "circle-opacity": 1,
 
         'circle-color': [
           'interpolate',
